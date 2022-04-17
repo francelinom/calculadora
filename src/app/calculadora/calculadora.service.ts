@@ -11,7 +11,7 @@ export class CalculadoraService {
 
   constructor() {}
 
-  calcular(num1: number, num2: number, operacao: string) {
+  calcular(num1: number, num2: number, operacao: string): number {
     let resultado: number;
     switch (operacao) {
       case CalculadoraService.SOMA:
